@@ -1,7 +1,4 @@
 {
-    "composer/package-versions-deprecated": {
-        "version": "1.11.99.4"
-    },
     "dama/doctrine-test-bundle": {
         "version": "4.0",
         "recipe": {
@@ -114,9 +111,6 @@
     },
     "egulias/email-validator": {
         "version": "3.1.2"
-    },
-    "erusev/parsedown": {
-        "version": "1.7.4"
     },
     "friendsofphp/proxy-manager-lts": {
         "version": "v1.0.5"
@@ -295,9 +289,6 @@
             "src/Kernel.php",
             "src/Controller/.gitignore"
         ]
-    },
-    "symfony/http-client-contracts": {
-        "version": "v2.4.0"
     },
     "symfony/http-foundation": {
         "version": "v6.0.0"
@@ -478,9 +469,6 @@
             "config/packages/twig.yaml",
             "templates/base.html.twig"
         ]
-    },
-    "symfony/twig-pack": {
-        "version": "v1.0.1"
     },
     "symfony/validator": {
         "version": "5.4",

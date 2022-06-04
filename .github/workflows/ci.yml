@@ -63,3 +63,7 @@ jobs:
         
       - name: Lint Doctrine entities
         run: php ./bin/console doctrine:schema:validate --skip-sync -vvv --no-interaction
+        
+      # PHP UNIT
+      - name: PHP Unit
+        run: ./bin/phpunit

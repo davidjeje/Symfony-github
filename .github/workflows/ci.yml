@@ -66,4 +66,4 @@ jobs:
         
       # PHP UNIT
       - name: PHP Unit
-        run: ./bin/phpunit
+        run: php ./bin/phpunit

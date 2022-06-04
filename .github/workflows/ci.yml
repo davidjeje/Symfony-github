@@ -24,6 +24,13 @@ jobs:
           
       - name: "composer install"
         run: composer install --no-interaction --no-progress
+      
+      # Install Symfony CLI
+      - name: Symfony CLI
+        run: |
+            curl -sS https://get.symfony.com/cli/installer | bash
+            mv /home/runner/.symfony/bin/symfony /usr/local/bin/symfony
         
-      - name: LS
-        run: ls
+      # Check vulnerabilities
+      - name: Symfony Check Vulnerabilities
+        run: symfony check:security
